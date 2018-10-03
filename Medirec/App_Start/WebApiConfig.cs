@@ -5,7 +5,7 @@ using Newtonsoft.Json;
 using System.Web.Http;
 using System.Web.OData.Builder;
 using System.Web.OData.Extensions;
-
+using System;
 
 namespace Medirec
 {
@@ -27,6 +27,9 @@ namespace Medirec
 
             config.MapODataServiceRoute("ODataRoute", "odata", GetEdmModel());
 
+            var timeZoneInfo = TimeZoneInfo.FindSystemTimeZoneById("Egypt Standard Time");
+            config.SetTimeZoneInfo(timeZoneInfo);
+
             config.EnsureInitialized();
         }
 
@@ -38,6 +41,7 @@ namespace Medirec
 
             builder.EntitySet<Doctors>("Doctors");
             builder.EntitySet<DoctorsEntities>("DoctorsEntities");
+            builder.EntitySet<CalendersDetails>("CalendersDetails");
 
             return builder.GetEdmModel();
         }

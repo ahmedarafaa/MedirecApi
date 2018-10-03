@@ -10,7 +10,7 @@ namespace Medirec.Controllers.MediAPI
         private ApplicationDbContext _context = new ApplicationDbContext();
 
 
-        [EnableQuery(MaxExpansionDepth = 5)]
+        [EnableQuery(MaxExpansionDepth = 5/*, PageSize = 3*/)]
         public IHttpActionResult Get()
         {
             return Ok(_context.DoctorsEntities);

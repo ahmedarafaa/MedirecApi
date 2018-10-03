@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Web;
 
 namespace Medirec.Models
 {
@@ -23,8 +20,8 @@ namespace Medirec.Models
         public int EntityId { get; set; }
         public Entities Entities { get; set; }
 
-        public TimeSpan? TimeFrom { get; set; }
-        public TimeSpan? TimeTo { get; set; }
+        public DateTime? TimeFrom { get; set; }
+        public DateTime? TimeTo { get; set; }
         public string DayName { get; set; }
 
         public DateTime? Date { get; set; }

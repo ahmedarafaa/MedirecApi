@@ -85,10 +85,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/17/2016 16:54:04</publishTime>
     </File>
     <File Include="bin/Medirec.dll">
-      <publishTime>09/25/2018 22:36:07</publishTime>
+      <publishTime>10/03/2018 14:59:23</publishTime>
     </File>
     <File Include="bin/Medirec.pdb">
-      <publishTime>09/25/2018 22:36:07</publishTime>
+      <publishTime>10/03/2018 14:59:23</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
       <publishTime>06/27/2017 22:59:34</publishTime>

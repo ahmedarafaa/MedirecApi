@@ -117,3 +117,8 @@ C:\Users\Arafa\source\repos\Medirec\Medirec\obj\Debug\Medirec.csproj.CopyComplet
 C:\Users\Arafa\source\repos\Medirec\Medirec\obj\Debug\Medirec.dll
 C:\Users\Arafa\source\repos\Medirec\Medirec\obj\Debug\Medirec.pdb
 C:\Users\Arafa\source\repos\Medirec\Medirec\obj\Debug\Medirec.csprojAssemblyReference.cache
+C:\Users\Arafa\source\repos\Medirec\Medirec\obj\Debug\Medirec.Migrations.DropFieldsFromCalendersDetails.resources
+C:\Users\Arafa\source\repos\Medirec\Medirec\obj\Debug\Medirec.Migrations.DropAddFieldsCalendersDetails.resources
+C:\Users\Arafa\source\repos\Medirec\Medirec\obj\Debug\Medirec.Migrations.EditFieldTypeInCalendersDeratils.resources
+C:\Users\Arafa\source\repos\Medirec\Medirec\obj\Debug\Medirec.Migrations.EditFieldTypeInCalendersDeratils1.resources
+C:\Users\Arafa\source\repos\Medirec\Medirec\obj\Debug\Medirec.Migrations.EditFieldTypeInCalendersDeratils2.resources

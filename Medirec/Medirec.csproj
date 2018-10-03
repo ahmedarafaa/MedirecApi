@@ -236,6 +236,7 @@
     <Compile Include="Controllers\MediAPI\ContactsController.cs" />
     <Compile Include="Controllers\MediAPI\CountriesController.cs" />
     <Compile Include="Controllers\MediAPI\DoctorsEntitiesController.cs" />
+    <Compile Include="Controllers\MediAPI\GenerateCalenderDetailsController.cs" />
     <Compile Include="Controllers\MediAPI\HumanBodiesController.cs" />
     <Compile Include="Controllers\MediAPI\ImmunizationsController.cs" />
     <Compile Include="Controllers\MediAPI\MedicalDevicesController.cs" />
@@ -269,6 +270,26 @@
     <Compile Include="Migrations\201809241139035_InitialModel.cs" />
     <Compile Include="Migrations\201809241139035_InitialModel.Designer.cs">
       <DependentUpon>201809241139035_InitialModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809301100225_DropFieldsFromCalendersDetails.cs" />
+    <Compile Include="Migrations\201809301100225_DropFieldsFromCalendersDetails.Designer.cs">
+      <DependentUpon>201809301100225_DropFieldsFromCalendersDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809301102164_DropAddFieldsCalendersDetails.cs" />
+    <Compile Include="Migrations\201809301102164_DropAddFieldsCalendersDetails.Designer.cs">
+      <DependentUpon>201809301102164_DropAddFieldsCalendersDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810020806404_EditFieldTypeInCalendersDeratils.cs" />
+    <Compile Include="Migrations\201810020806404_EditFieldTypeInCalendersDeratils.Designer.cs">
+      <DependentUpon>201810020806404_EditFieldTypeInCalendersDeratils.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810020811175_EditFieldTypeInCalendersDeratils1.cs" />
+    <Compile Include="Migrations\201810020811175_EditFieldTypeInCalendersDeratils1.Designer.cs">
+      <DependentUpon>201810020811175_EditFieldTypeInCalendersDeratils1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810021332278_EditFieldTypeInCalendersDeratils2.cs" />
+    <Compile Include="Migrations\201810021332278_EditFieldTypeInCalendersDeratils2.Designer.cs">
+      <DependentUpon>201810021332278_EditFieldTypeInCalendersDeratils2.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -387,6 +408,21 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201809241139035_InitialModel.resx">
       <DependentUpon>201809241139035_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809301100225_DropFieldsFromCalendersDetails.resx">
+      <DependentUpon>201809301100225_DropFieldsFromCalendersDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809301102164_DropAddFieldsCalendersDetails.resx">
+      <DependentUpon>201809301102164_DropAddFieldsCalendersDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810020806404_EditFieldTypeInCalendersDeratils.resx">
+      <DependentUpon>201810020806404_EditFieldTypeInCalendersDeratils.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810020811175_EditFieldTypeInCalendersDeratils1.resx">
+      <DependentUpon>201810020811175_EditFieldTypeInCalendersDeratils1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810021332278_EditFieldTypeInCalendersDeratils2.resx">
+      <DependentUpon>201810021332278_EditFieldTypeInCalendersDeratils2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
